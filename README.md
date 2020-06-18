@@ -9,10 +9,13 @@
 ## :rocket: Exercícios
 
 - [x] Desafio 1 - [Primeiros passos com JavaScript](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
+- [ ] Desafio 2 - [Lidando com objetos e vetores](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
+- [ ] Desafio 3 - [Funções e estruturas de repetição](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
+- [ ] Desafio 4 - [Aplicação: Operações bancárias](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
 
-## :calendar: Entrega
+## :mag: Soluções
 
-As soluções podem ser visualizadas na pasta (Ex: /#1)
+As soluções podem ser visualizadas nas pastas de acordo com o número do desafio. (Ex: /#1)
 
 ## :memo: Licença
 
