@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Launchbase" src="./images/logo_launchbase.png" width="250px" />
+    <img alt="Launchbase" src="https://github.com/rpradosilva/launchbase-desafios/blob/master/images/logo_launchbase.png" width="250px" />
 </h1>
 
 <h3 align="center">
