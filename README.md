@@ -8,7 +8,7 @@
 
 ## :rocket: Exercícios
 
-- [x] Desafio 1 - [Primeiros passos com JavaScript](desafios/01-1-primeiros-passos-com-js.md)
+- [x] Desafio 1 - [Primeiros passos com JavaScript](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
 
 ## :calendar: Entrega
 
