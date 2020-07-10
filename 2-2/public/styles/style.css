@@ -90,6 +90,7 @@ section h1 {
     padding: var(--height-default) var(--width-default) 0 var(--width-default);
     font-weight: bold;
     font-size: 36px;
+    text-align: center;
 }
 
 section p {
