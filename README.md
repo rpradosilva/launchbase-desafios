@@ -13,7 +13,7 @@
 - [x] Challenge 1.3 - [Loops and Functions](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
 - [x] Challenge 1.4 - [Project: Bank Transitions](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
 - [x] Challenge 2.1 - [First HTML](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
-- [ ] Challenge 2.2 - [Description page](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
+- [x] Challenge 2.2 - [Description page](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
 - [ ] Challenge 2.3 - [Iframe and courses page](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
 
 ## :mag: Solved Challenges
