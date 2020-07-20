@@ -72,7 +72,7 @@ header nav ul a:hover {
 }
 
 section {
-    padding: 6vh var(--width-default) 0 var(--width-default);
+    padding: 60px var(--width-default) 0 var(--width-default);
     display: flex;
     flex-direction: column;
     color: var(--color-white);
@@ -101,7 +101,7 @@ section p {
 }
 
 section ul {
-    padding: var(--height-default) var(--width-default) 0 var(--width-default);
+    margin: 40px var(--width-default) 0 var(--width-default);
     display: flex;
     justify-content: space-around;
 }
