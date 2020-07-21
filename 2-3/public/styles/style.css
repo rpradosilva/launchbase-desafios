@@ -35,7 +35,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: var(--height-default) var(--width-default);
+    padding: var(--space-default);
     background: var(--color-light-grey);
 }
 
@@ -51,13 +51,24 @@ header nav .logo {
     margin: var(--height-default) var(--width-default);
 }
 
+header .toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
 header nav ul {
     text-align: center;
 }
 
-header nav ul a {
+header nav ul .hidden {
+    display: none;
+}
+
+header nav ul a,
+header .toggle a {
     background: var(--color-dark-grey);
-    padding: var(--height-default) var(--width-default);
+    padding: var(--height-default);
     margin: var(--space-default);
     border-radius: var(--space-default);
     display: inline-block;
@@ -84,7 +95,7 @@ section img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 8px solid var(--color-highlight);
+    border: var(--space-default) solid var(--color-highlight);
 }
 
 section h1 {
@@ -124,28 +135,50 @@ footer {
     padding: var(--height-default) var(--width-default);
 }
 
-footer div a i {
-    margin: var(--space-default);
-    border-radius: var(--space-default);
-    background: var(--color-highlight);
-    padding: 8px;
-    font-size: 1vw;
-    border: 2px solid var(--color-highlight);
-    color: var(--color-white);
+footer div {
+    display: flex;
 }
 
-footer div a i:hover {
+footer div a {
+    display: flex;
+    background: var(--color-highlight);
+    border-radius: var(--space-default);
+    border: 2px solid var(--color-highlight);
+    color: var(--color-white);
+    font-size: 1.35rem;
+    margin: var(--space-default);
+}
+
+footer div a i {
+    padding: var(--space-default);
+}
+
+footer div a:hover {
     cursor: pointer;
     background: var(--color-dark-grey);
     transition: background 200ms;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     header nav {
         flex-direction: column;
     }
+    header .fixedHeader {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    header .toggle {
+        display: flex;
+    }
+    header nav ul {
+        display: none;
+        width: 100vw;
+        padding: 0 16px;
+    }
     header nav ul a {
         width: 100%;
+        margin: 6px 0;
     }
     section p {
         max-width: 100%;
