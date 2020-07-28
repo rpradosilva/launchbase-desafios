@@ -1,0 +1,27 @@
+.content .cards {}
+
+.content .cards .card {
+    margin: 4vh 0 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    height: 60vh;
+    border-radius: var(--space-default);
+    background: var(--color-light-grey);
+}
+
+.content .cards .card .card__image img {
+    max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .content .cards .card {
+        width: 80vw;
+        height: 60vh;
+    }
+    .about ul {
+        flex-direction: column;
+    }
+}

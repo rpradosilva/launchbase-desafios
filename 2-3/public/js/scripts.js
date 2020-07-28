@@ -1,6 +1,7 @@
 const toggleNav = document.querySelector(".toggle")
+const bodyDocument = document.getElementsByTagName("BODY")[0]
+const changeTheme = document.querySelector(".changeTheme")
 const menuItems = document.querySelector("header nav ul")
-const windowWidth = window.innerWidth
 
 
 toggleNav.addEventListener("click", () => {
@@ -9,4 +10,8 @@ toggleNav.addEventListener("click", () => {
     } else {
         menuItems.style.display = "";
     }
+})
+
+changeTheme.addEventListener("click", () => {
+    bodyDocument.classList.toggle("dark");
 })
