@@ -44,7 +44,7 @@
     background: var(--color-highlight);
     border-radius: var(--space-default);
     border: 2px solid var(--color-highlight);
-    color: var(--color-white);
+    color: var(--color-base);
     font-size: 1.35rem;
     margin: var(--space-default);
 }
@@ -55,7 +55,7 @@
 
 .about .socialIcons a:hover {
     cursor: pointer;
-    background: var(--color-dark-grey);
+    background: var(--color-primary);
     transition: background 200ms;
 }
 

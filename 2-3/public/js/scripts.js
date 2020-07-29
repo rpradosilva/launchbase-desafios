@@ -13,5 +13,5 @@ toggleNav.addEventListener("click", () => {
 })
 
 changeTheme.addEventListener("click", () => {
-    bodyDocument.classList.toggle("dark");
+    bodyDocument.classList.toggle("light");
 })
