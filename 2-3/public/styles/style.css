@@ -2,13 +2,18 @@
 @import "components/fontawesome.css";
 @import "components/menu.css";
 @import "components/about.css";
-@import "components/content.css";
+@import "components/classes.css";
 :root {
     --color-highlight: #7159c1;
     --color-primary: #19181F;
     --color-second: #1E1E26;
+    --color-card: #1E1E26;
     --color-base: #ffffff;
-    --height-default: 24px;
+    --color-starter: #7159c1;
+    --color-launchbase: #fd951f;
+    --color-gostack: #04d361;
+    --color-svg-text: #19181F;
+    --height-default: 20px;
     --width-default: 32px;
     --space-default: 8px;
 }
@@ -18,6 +23,7 @@
     --color-primary: #eeeeee;
     --color-second: #7159c1;
     --color-base: #19181F;
+    --color-card: #ffffff;
 }
 
 * {
@@ -59,7 +65,7 @@ section {
 }
 
 section h1 {
-    padding: var(--height-default) var(--width-default) 0 var(--width-default);
+    padding: var(--width-default) var(--width-default) 0 var(--width-default);
     font-weight: bold;
     font-size: 36px;
     text-align: center;

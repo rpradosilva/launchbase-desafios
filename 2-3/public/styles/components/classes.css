@@ -1,0 +1,98 @@
+.classes h1 {
+    margin: 0 0 var(--width-default) 0;
+}
+
+.classes .cards {
+    max-width: 90vw;
+    display: grid;
+    gap: var(--width-default);
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 0 80px 0;
+}
+
+.classes .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: var(--space-default);
+    padding: 80px 60px 60px 60px;
+    background: var(--color-card);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.classes .cards .card .card__image svg {
+    max-width: 300px;
+    width: 100%;
+}
+
+.classes .cards .card.starter .card__image svg .a,
+.classes .cards .card.launchbase .card__image svg .a,
+.classes .cards .card.gostack .card__image svg .c {
+    opacity: 0.5;
+}
+
+.classes .cards .card.starter .card__image svg .b,
+.classes .cards .card.launchbase .card__image svg .b,
+.classes .cards .card.gostack .card__image svg .b {
+    fill: var(--color-base);
+}
+
+.classes .cards .card.starter .card__image svg .c {
+    fill: var(--color-starter);
+}
+
+.classes .cards .card.launchbase .card__image svg .c {
+    fill: var(--color-launchbase);
+}
+
+.classes .cards .card.gostack .card__image svg .a {
+    fill: var(--color-gostack);
+}
+
+.classes .cards .card .card__info {
+    display: flex;
+    width: 100%;
+    margin: var(--width-default) 0 0 0;
+    gap: var(--space-default);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classes .cards .card .card__info p {
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.classes .cards .card .card__info .card__tag {
+    padding: var(--space-default);
+    border-radius: 4px;
+    font-size: 12px;
+    color: var(--color-base);
+    border: 1px solid var(--color-highlight);
+}
+
+.classes .cards .card .card__cta {
+    width: 100%;
+    padding: 16px var(--space-default);
+    margin: 60px 0 0 0;
+    text-align: center;
+    border-radius: 4px;
+    color: var(--color-base);
+    background: var(--color-highlight);
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .classes .cards {
+        grid-template-columns: 1fr;
+    }
+    .classes .cards .card {
+        padding: 40px 40px 40px 40px;
+    }
+    .classes .cards .card .card__info {
+        flex-direction: column;
+    }
+    .classes .cards .card .card__cta {
+        margin: 30px 0 0 0;
+    }
+}
