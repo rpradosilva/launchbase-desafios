@@ -1,5 +1,6 @@
 .classes h1 {
     margin: 0 0 var(--width-default) 0;
+    padding: 0 var(--width-default) 0 var(--width-default);
 }
 
 .classes .cards {
