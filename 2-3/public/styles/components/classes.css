@@ -19,6 +19,7 @@
     padding: 80px 60px 60px 60px;
     background: var(--color-card);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .classes .cards .card .card__image svg {
@@ -26,27 +27,27 @@
     width: 100%;
 }
 
-.classes .cards .card.starter .card__image svg .a,
-.classes .cards .card.launchbase .card__image svg .a,
-.classes .cards .card.gostack .card__image svg .c {
+.classes .cards .card#starter .card__image svg .a,
+.classes .cards .card#launchbase .card__image svg .a,
+.classes .cards .card#gostack .card__image svg .c {
     opacity: 0.5;
 }
 
-.classes .cards .card.starter .card__image svg .b,
-.classes .cards .card.launchbase .card__image svg .b,
-.classes .cards .card.gostack .card__image svg .b {
+.classes .cards .card#starter .card__image svg .b,
+.classes .cards .card#launchbase .card__image svg .b,
+.classes .cards .card#gostack .card__image svg .b {
     fill: var(--color-base);
 }
 
-.classes .cards .card.starter .card__image svg .c {
+.classes .cards .card#starter .card__image svg .c {
     fill: var(--color-starter);
 }
 
-.classes .cards .card.launchbase .card__image svg .c {
+.classes .cards .card#launchbase .card__image svg .c {
     fill: var(--color-launchbase);
 }
 
-.classes .cards .card.gostack .card__image svg .a {
+.classes .cards .card#gostack .card__image svg .a {
     fill: var(--color-gostack);
 }
 

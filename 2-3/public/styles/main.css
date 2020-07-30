@@ -3,6 +3,7 @@
 @import "components/menu.css";
 @import "components/about.css";
 @import "components/classes.css";
+@import "components/modal.css";
 :root {
     --color-highlight: #7159c1;
     --color-primary: #19181F;
@@ -36,7 +37,6 @@ body {
     background: var(--color-primary);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    transition: background 300ms;
 }
 
 li {
