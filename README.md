@@ -15,7 +15,7 @@
 - [x] Challenge 2.1 - [First HTML](/2-1)
 - [x] Challenge 2.2 - [Description page](/2-2)
 - [x] Challenge 2.3 - [Iframe and courses page](/2-3)
-- [ ] Challenge 3.1 - [First Server](https://3-1)
+- [x] Challenge 3.1 - [First Server](https://3-1)
 
 ## :mag: Solved Challenges
 
