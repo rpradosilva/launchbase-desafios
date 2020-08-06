@@ -1,6 +1,7 @@
 ## **Estrutura Backend**
+### *:heavy_exclamation_mark: Precisa ter o node instalado.*
 
-## ***1.** Criar Servidor*
+## ***1.** Criar Arquivo*
 - Criar arquivo `server.js`
 
 ---
