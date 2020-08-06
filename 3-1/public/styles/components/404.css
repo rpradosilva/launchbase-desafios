@@ -110,3 +110,9 @@
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
+
+@media (max-width: 1000px) {
+    .not-found svg {
+        max-width: 100%;
+    }
+}
