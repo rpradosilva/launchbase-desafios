@@ -97,4 +97,38 @@ server.set("view engine", "njk")
 nunjucks.configure("views", { express: server })
 ```
 
+---
 
+## **7.** Nunjucks Templates
+> Necessário identificar elementos que aparecem em todas as páginas e os que são exclusivos de cada página
+
+### **7.1** - Criar estrutura padrão
+
+Crie o arquivo `layout.njk` na pasta views, com os elementos/tags que se repetem em toda estrutura do projeto.
+> Tudo que irá se **repetir** deve **ficar fora** dos blocos
+
+```html
+<html>
+    <head>
+        {% block <!-- NOME DO BLOCO 1 --> %}{% endblock %}
+    </head>
+    <body>
+        {% block <!-- NOME DO BLOCO 2 --> %}{% endblock %}
+   </body>
+</html>
+```
+
+### **7.2** - Páginas
+
+As páginas receberam o arquivo `layout.njk` e poderão ser compostas por outros conteúdos, presentes só nelas.
+> Exemplo: `sobre.njk`
+
+```html
+{% extends "layout.njk" %}
+
+{% block <!-- NOME DO BLOCO 2 --> %}
+    <section class="about">
+        <img src="/images/perfil.jpg" alt="Foto Perfil">
+    </section>
+{% endblock %}
+```
