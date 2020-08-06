@@ -132,3 +132,11 @@ As páginas receberam o arquivo `layout.njk` e poderão ser compostas por outros
     </section>
 {% endblock %}
 ```
+
+### **7.3** - Comandos
+
+| **Comando**                         | **Descritivo**                  |
+| ----------------------------------- | ------------------------------- |
+| `{% block nome %}`                  | *Início do bloco de conteúdo*   |
+| `{% endblock %}`                    | *Finaliza do bloco de conteúdo* |
+| `{% extends "nome-template.njk" %}` | *Insere o conteúdo padrão*      |
