@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Launchbase" src="https://github.com/rpradosilva/launchbase-desafios/blob/master/images/logo_launchbase.png" width="250px" />
+    <img alt="Launchbase" src=".github/logo_launchbase.png" width="250px" />
 </h1>
 
 <h3 align="center">
@@ -16,6 +16,7 @@
 - [x] Challenge 2.2 - [Description page](/2-2)
 - [x] Challenge 2.3 - [Iframe and courses page](/2-3)
 - [x] Challenge 3.1 - [First Server](/3-1)
+- [ ] Challenge 3.2 - [Nunjucks Files and Dynamic Data](/3-2)
 
 ## :mag: Solved Challenges
 
