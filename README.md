@@ -16,11 +16,8 @@
 - [x] Challenge 2.2 - [Description page](/2-2)
 - [x] Challenge 2.3 - [Iframe and courses page](/2-3)
 - [x] Challenge 3.1 - [First Server](/3-1)
-- [ ] Challenge 3.2 - [Nunjucks Files and Dynamic Data](/3-2)
+- [x] Challenge 3.2 - [Nunjucks Files and Dynamic Data](/3-2)
 
-## :mag: Solved Challenges
-
-See the solutions in the folders. (Ex: /1-1 - Challenge number)
 
 ## :memo: License
 
