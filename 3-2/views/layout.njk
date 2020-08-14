@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rocketseat</title>
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="fixedHeader">
+                        <div class="logo">
+                            <a href="/"><img src="/images/logo.svg" alt="Logo Rocketseat"></a>
+                        </div>
+                        <div class="toggle">
+                            <a>
+                                <i class="fas fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <ul>
+                        <a href="/">
+                            <li>Sobre</li>
+                        </a>
+                        <a href="/courses">
+                            <li>Conteúdos</li>
+                        </a>
+                        <a href="https://discordapp.com/invite/gCRAFh" target="_blank">
+                            <li>Comunidade</li>
+                        </a>
+                        <a href="mailto:oi@rocketseat.com.br" target="_blank">
+                            <li>E-mail</li>
+                        </a>
+                        <a href="tel:+5547992078767" target="_blank">
+                            <li>Telefone</li>
+                        </a>
+                    </ul>
+                    <div class="changeTheme">
+                        <a>
+                            <i class="fas fa-adjust"></i>
+                        </a>
+                    </div>
+                </nav>
+            </header>
+
+            {% block content %}{% endblock %}
+        </div>
+        <script src="/js/theme.js"></script>
+        <script src="/js/menu.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+{% extends "layout.njk" %}
+{% block content %}
+    <section class="classes">
+        <h1>Cursos</h1>
+        <div class="cards">
+
+            {% for item in items %}
+                <div class="card" id="{{item.id}}">
+                    <div class="card__image">
+                        <img src="/images/{{item.id}}.svg" alt="Logo {{item.id}}">
+                    </div>
+                    <div class="card__cta">
+                        SAIBA MAIS
+                    </div>
+                    <div class="card__info">
+                        <p>
+                            <strong>{{item.modulos}}</strong>
+                            MÓDULOS
+                        </p>
+                        <div class="card__tag">
+                            {{item.price}}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="/js/modal.js"></script>
+
+{% endblock %}

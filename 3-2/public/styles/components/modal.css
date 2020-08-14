@@ -1,0 +1,49 @@
+.modal-overlay {
+    display: none;
+}
+
+.modal {
+    background: #ffffff;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    border-radius: var(--space-default);
+    position: relative;
+}
+
+.modal .close-modal {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 25px;
+    background: var(--color-highlight);
+    border-radius: var(--space-default);
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal-overlay.active {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--space-default);
+}
+
+.modal-content iframe {
+    border-radius: var(--space-default);
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
