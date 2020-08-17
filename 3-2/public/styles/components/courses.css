@@ -22,14 +22,9 @@
     cursor: pointer;
 }
 
-.classes .cards .card .card__image img {
+.classes .cards .card .card__image svg {
     max-width: 300px;
     width: 100%;
-    filter: initial;
-}
-
-.light .classes .cards .card .card__image img {
-    filter: invert();
 }
 
 .classes .cards .card#starter .card__image svg .a,
