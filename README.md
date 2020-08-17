@@ -17,6 +17,7 @@
 - [x] Challenge 2.3 - [Iframe and courses page](/2-3)
 - [x] Challenge 3.1 - [First Server](/3-1)
 - [x] Challenge 3.2 - [Nunjucks Files and Dynamic Data](/3-2)
+- [x] Challenge 3.3 - [Description page of courses](/3-3)
 
 
 ## :memo: License

@@ -1,0 +1,40 @@
+{% extends "layout.njk" %}
+{% block content %}
+    <section class="classes">
+        <h1>Cursos</h1>
+        <div class="cards">
+
+            {% for item in items %}
+                <div class="card" id="{{item.id}}">
+                    <div class="card__image">
+                        {{item.logo}}
+                    </div>
+                    <div class="card__cta">
+                        {% if item.buy %}
+                            ACESSAR
+                        {% else %}
+                            COMPRAR
+                        {% endif %}
+                    </div>
+                    <div class="card__info">
+                        <p>
+                            <strong>{{item.modulos}}</strong>
+                            MÓDULOS
+                        </p>
+                        <div class="card__tag">
+                            {% if item.buy %}
+                                ADQUIRIDO
+                            {% else %}
+                                {{item.price}}
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    </section>
+
+    <script src="/js/cards.js"></script>
+
+{% endblock %}

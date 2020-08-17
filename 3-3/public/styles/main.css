@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import "components/fontawesome.css";
+@import "components/menu.css";
+@import "components/about.css";
+@import "components/courses.css";
+@import "components/404.css";
+:root {
+    --color-highlight: #7159c1;
+    --color-primary: #19181F;
+    --color-second: #1E1E26;
+    --color-card: #1E1E26;
+    --color-base: #ffffff;
+    --color-starter: #7159c1;
+    --color-launchbase: #fd951f;
+    --color-gostack: #04d361;
+    --color-svg-text: #19181F;
+    --height-default: 20px;
+    --width-default: 32px;
+    --space-default: 8px;
+}
+
+.light {
+    --color-highlight: #947ddd;
+    --color-primary: #eeeeee;
+    --color-second: #7159c1;
+    --color-base: #19181F;
+    --color-card: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-base);
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    padding: 60px var(--width-default) 0 var(--width-default);
+}
+
+section h1 {
+    padding: var(--width-default) var(--width-default) 0 var(--width-default);
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
