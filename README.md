@@ -27,4 +27,4 @@ This project is protected by the MIT license. See the file [LICENSE](/LICENSE) f
 
 ---
 
-Feito com ♥ por [Rafael Prado](http://rprado.design)
+Made with ♥ by [Rafael Prado](http://rprado.design)
