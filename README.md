@@ -8,17 +8,17 @@
 
 ## :rocket: Challenges
 
-- [x] Challenge 1.1 - [Getting started with JavaScript](/1-1)
-- [x] Challenge 1.2 - [Vectors and Objects](/1-2)
-- [x] Challenge 1.3 - [Loops and Functions](/1-3)
-- [x] Challenge 1.4 - [Project: Bank Transitions](/1-4)
-- [x] Challenge 2.1 - [First HTML](/2-1)
-- [x] Challenge 2.2 - [Description page](/2-2)
-- [x] Challenge 2.3 - [Iframe and courses page](/2-3)
-- [x] Challenge 3.1 - [First Server](/3-1)
-- [x] Challenge 3.2 - [Nunjucks Files and Dynamic Data](/3-2)
-- [x] Challenge 3.3 - [Description page of courses](/3-3)
-- [x] Challenge 4.1 - [Header](/4-1)
+- [x] Challenge 1.1 - [Getting started with JavaScript](src/1-1)
+- [x] Challenge 1.2 - [Vectors and Objects](src/1-2)
+- [x] Challenge 1.3 - [Loops and Functions](src/1-3)
+- [x] Challenge 1.4 - [Project: Bank Transitions](src/1-4)
+- [x] Challenge 2.1 - [First HTML](src/2-1)
+- [x] Challenge 2.2 - [Description page](src/2-2)
+- [x] Challenge 2.3 - [Iframe and courses page](src/2-3)
+- [x] Challenge 3.1 - [First Server](src/3-1)
+- [x] Challenge 3.2 - [Nunjucks Files and Dynamic Data](src/3-2)
+- [x] Challenge 3.3 - [Description page of courses](src/3-3)
+- [x] Challenge 4.1 - [Header](src/4-1)
 
 
 ## :memo: License
