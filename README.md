@@ -18,12 +18,13 @@
 - [x] Challenge 3.1 - [First Server](src/3-1)
 - [x] Challenge 3.2 - [Nunjucks Files and Dynamic Data](src/3-2)
 - [x] Challenge 3.3 - [Description page of courses](src/3-3)
-- [x] Challenge 4.1 - [Header](src/4-1)
-
+- [x] Challenge 4.1 - [Header gym website](src/4-1)
+- [x] Challenge 4.2 - [Teachers card](src/4-2)
 
 ## :memo: License
 
 This project is protected by the MIT license. See the file [LICENSE](/LICENSE) for more details.
+
 <div style="margin: 30px;"></div>
 
 ---
