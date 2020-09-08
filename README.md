@@ -1,10 +1,6 @@
-<h1 align="center">
-    <img alt="Launchbase" src=".github/logo_launchbase.png" width="250px" />
-</h1>
-
-<h3 align="center">
-  LaunchBase challenges
-</h3>
+<p align="center">
+    <img alt="Launchbase" src=".github/logo_launchbase.png" width="200px" />
+</p>
 
 ## :rocket: Challenges
 
