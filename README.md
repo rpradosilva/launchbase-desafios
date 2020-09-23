@@ -4,18 +4,23 @@
 
 ## :rocket: Challenges
 
-- [x] Challenge 1.1 - [Getting started with JavaScript](src/1-1)
-- [x] Challenge 1.2 - [Vectors and Objects](src/1-2)
-- [x] Challenge 1.3 - [Loops and Functions](src/1-3)
-- [x] Challenge 1.4 - [Project: Bank Transitions](src/1-4)
-- [x] Challenge 2.1 - [First HTML](src/2-1)
-- [x] Challenge 2.2 - [Description page](src/2-2)
-- [x] Challenge 2.3 - [Iframe and courses page](src/2-3)
-- [x] Challenge 3.1 - [First Server](src/3-1)
-- [x] Challenge 3.2 - [Nunjucks Files and Dynamic Data](src/3-2)
-- [x] Challenge 3.3 - [Description page of courses](src/3-3)
-- [x] Challenge 4.1 - [Header gym website](src/4-1)
-- [x] Challenge 4.2 - [Teachers card](src/4-2)
+|       Status       | Challenge | Description                     |              Result              |
+| :----------------: | :-------: | :------------------------------ | :------------------------------: |
+| :white_check_mark: |    1.1    | Getting started with JavaScript | [:card_index_dividers:](src/1-1) |
+| :white_check_mark: |    1.2    | Vectors and Objects             | [:card_index_dividers:](src/1-2) |
+| :white_check_mark: |    1.3    | Loops and Functions             | [:card_index_dividers:](src/1-3) |
+| :white_check_mark: |    1.4    | Project: Bank Transitions       | [:card_index_dividers:](src/1-4) |
+| :white_check_mark: |    2.1    | First HTML                      | [:card_index_dividers:](src/2-1) |
+| :white_check_mark: |    2.2    | Description page                | [:card_index_dividers:](src/2-2) |
+| :white_check_mark: |    2.3    | Iframe and courses page         | [:card_index_dividers:](src/2-3) |
+| :white_check_mark: |    3.1    | First Server                    | [:card_index_dividers:](src/3-1) |
+| :white_check_mark: |    3.2    | Nunjucks Files and Dynamic Data | [:card_index_dividers:](src/3-2) |
+| :white_check_mark: |    3.3    | Description page of courses     | [:card_index_dividers:](src/3-3) |
+| :white_check_mark: |    4.1    | Header gym website              | [:card_index_dividers:](src/4-1) |
+| :white_check_mark: |    4.2    | Teachers card                   | [:card_index_dividers:](src/4-2) |
+|      :clock3:      |    4.3    | Forms and Singup route          |                                  |
+
+<!-- :clock3: -->
 
 ## :memo: License
 
