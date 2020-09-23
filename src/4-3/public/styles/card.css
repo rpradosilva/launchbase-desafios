@@ -1,0 +1,154 @@
+.card {
+  animation: card--animation 500ms ease-out;
+  background: var(--white);
+  border-radius: var(--metric-sm);
+  box-shadow: 0 14px 28px rgba(190, 190, 190, 0.25),
+    0 10px 10px rgba(190, 190, 190, 0.22);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: var(--metric-xl) auto 0 auto;
+  width: 1000px;
+}
+
+.card__avatar {
+  background: url(https://source.unsplash.com/collection/8524003/400x400)
+    no-repeat center center / cover;
+  border-top-left-radius: var(--metric-sm);
+  border-bottom-left-radius: var(--metric-sm);
+}
+
+.card__details {
+  padding: calc(var(--metric-xl) * 1.5);
+}
+
+.card__details-item {
+  align-items: center;
+  align-content: center;
+  border-top: calc(var(--metric-sm) / 4.1) dashed var(--light-gray);
+  display: flex;
+  margin: 0 0 var(--metric-md) 0;
+  padding: var(--metric-md) 0 0 0;
+}
+
+.card__details-item i {
+  color: var(--medium-yellow);
+  font-size: var(--metric-lg);
+  margin: 0 var(--metric-md) 0 0;
+}
+
+.card__details-item p {
+  color: var(--black);
+  font-size: var(--metric-md);
+}
+
+.card__details-item:first-child {
+  background: var(--medium-yellow);
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  padding: var(--metric-md);
+}
+
+.card__details-item:first-child p {
+  color: var(--white);
+  font-size: var(--metric-lg);
+  font-weight: 700;
+}
+
+.card__details-item:first-child i {
+  color: var(--light-yellow);
+}
+
+.card__details-item:nth-child(2) {
+  border-top: none;
+}
+
+.card__details-item:nth-child(5) p {
+  background: var(--black);
+  border-radius: var(--metric-xl);
+  color: var(--white);
+  font-size: calc(var(--metric-md) / 1.2);
+  font-weight: 700;
+  margin: 0 var(--metric-sm) 0 0;
+  padding: var(--metric-sm) var(--metric-md);
+  text-transform: uppercase;
+}
+
+.card__details-item:nth-child(5) i {
+  font-size: calc(var(--metric-md) * 1.3);
+}
+
+.card__form {
+  padding: calc(var(--metric-xl) * 1.5);
+}
+
+.card__form-item {
+  align-content: center;
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 var(--metric-md) 0;
+}
+
+.card__form-label {
+  color: var(--black);
+  font-size: calc(var(--metric-md) / 1.2);
+  font-weight: 700;
+  padding: 0 0 var(--metric-sm) 0;
+}
+
+.card__form-input {
+  background: var(--light-gray);
+  border: calc(var(--metric-sm) / 3) solid var(--light-gray);
+  border-radius: calc(var(--metric-sm) / 2);
+  color: var(--black);
+  font-size: var(--metric-md);
+  padding: calc(var(--metric-sm) * 1.2);
+}
+
+.card__form-input:focus {
+  border: calc(var(--metric-sm) / 3) solid var(--dark-yellow);
+  outline: none;
+}
+
+.card__form-input--radio {
+  align-items: center;
+  display: flex;
+}
+
+.card__form-input--radio .card__form-input {
+  background: var(--black);
+  border: calc(var(--metric-sm) / 3) solid var(--black);
+}
+
+.card__form-input--radio .card__form-input label {
+  color: var(--white);
+}
+
+.card__form-input--radio .card__form-input:nth-child(2) {
+  margin: 0 0 0 var(--metric-sm);
+}
+
+.card__form button {
+  background: var(--dark-yellow);
+  border: none;
+  color: var(--black);
+  font-size: var(--metric-md);
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  padding: var(--metric-md) var(--metric-lg);
+}
+
+.card__form button:hover {
+  background: var(--light-yellow);
+}
+
+@keyframes card--animation {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+  }
+}

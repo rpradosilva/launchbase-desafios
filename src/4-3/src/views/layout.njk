@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% block title %}
+            <title>Gym</title>
+        {% endblock %}
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header class="navbar">
+            <nav class="navbar__nav">
+                <ul class="navbar__nav-list">
+                    <li class="navbar__nav-item">
+                        <a href="/teachers" class="navbar__nav-link">
+                            Teachers
+                        </a>
+                    </li>
+                    <li class="navbar__nav-item">
+                        <a href="/students" class="navbar__nav-link">
+                            Students
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        {% block content %}
+        {% endblock %}
+    </body>
+
+</html>
