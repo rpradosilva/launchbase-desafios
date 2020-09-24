@@ -18,15 +18,13 @@
 | :white_check_mark: |    3.3    | Description page of courses     | [:card_index_dividers:](src/3-3) |
 | :white_check_mark: |    4.1    | Header gym website              | [:card_index_dividers:](src/4-1) |
 | :white_check_mark: |    4.2    | Teachers card                   | [:card_index_dividers:](src/4-2) |
-|      :clock3:      |    4.3    | Forms and Singup route          | [:card_index_dividers:](src/4-3) |
+|      :clock3:      |    4.3    | Forms and Sign-up route         | [:card_index_dividers:](src/4-3) |
 
 <!-- :clock3: -->
 
 ## :memo: License
 
 This project is protected by the MIT license. See the file [LICENSE](/LICENSE) for more details.
-
-<div style="margin: 30px;"></div>
 
 ---
 
