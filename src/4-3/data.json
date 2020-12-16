@@ -1,28 +1,24 @@
 {
   "teachers": [
     {
-      "avatar_url": "https://avatars2.githubusercontent.com/u/22681977?s=460&u=c5dab882c838a45771b89957a6ee8822f1e91d28&v=4",
-      "name": "Rafael Prado",
-      "born": "1994-03-04",
-      "graduate": "superior-completo",
-      "lession": "presencial",
-      "matter": "tech, design"
-    },
-    {
+      "id": 1,
       "avatar_url": "https://avatars0.githubusercontent.com/u/52923100?s=460&u=469fdebd3f4037f8564397c38c2d9d0a225dd8ed&v=4",
-      "name": "joao silva",
-      "born": "1232-03-12",
+      "name": "Rafael do Prado Silva",
+      "born": 42699484800000,
       "graduate": "mestrado",
       "lession": "distancia",
-      "matter": "matemática, história"
+      "matter": "tech, design",
+      "created_at": 1608134986007
     },
     {
-      "avatar_url": "https://avatars2.githubusercontent.com/u/22681977?s=460&u=c5dab882c838a45771b89957a6ee8822f1e91d28&v=4",
+      "id": 2,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/52923100?s=460&u=469fdebd3f4037f8564397c38c2d9d0a225dd8ed&v=4",
       "name": "Rafael Prado",
-      "born": "2333-03-21",
-      "graduate": "mestrado",
+      "born": 11144908800000,
+      "graduate": "superior-completo",
       "lession": "presencial",
-      "matter": "tech, design"
+      "matter": "matemática, história",
+      "created_at": 1608135004127
     }
   ]
 }
