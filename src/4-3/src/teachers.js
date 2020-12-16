@@ -23,13 +23,13 @@ exports.post = function (req, res) {
   // import fake db
   data.teachers.push({
     id,
+    created_at,
     avatar_url,
     name,
     born,
     graduate,
     lession,
     matter,
-    created_at,
   });
 
   // insert data into fake db
