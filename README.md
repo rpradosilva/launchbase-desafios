@@ -19,6 +19,12 @@
 | :white_check_mark: |    4.1    | Header gym website              | [:card_index_dividers:](src/4-1) |
 | :white_check_mark: |    4.2    | Teachers card                   | [:card_index_dividers:](src/4-2) |
 | :white_check_mark: |    4.3    | Forms and Sign-up route         | [:card_index_dividers:](src/4-3) |
+|      :clock3:      |    4.4    | Show edit format teacher        | [:card_index_dividers:](src/4-4) |
+|      :clock3:      |    4.5    | Put & delete teacher            | [:card_index_dividers:](src/4-5) |
+|      :clock3:      |    4.6    | List teachers                   | [:card_index_dividers:](src/4-6) |
+|      :clock3:      |    4.7    | Students                        | [:card_index_dividers:](src/4-7) |
+
+show-edit-format-teacher
 
 <!-- :clock3: -->
 
