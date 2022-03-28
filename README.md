@@ -24,8 +24,6 @@
 |      :clock3:      |    4.6    | List teachers                   | [:card_index_dividers:](src/4-6) |
 |      :clock3:      |    4.7    | Students                        | [:card_index_dividers:](src/4-7) |
 
-show-edit-format-teacher
-
 <!-- :clock3: -->
 
 ## :memo: License
