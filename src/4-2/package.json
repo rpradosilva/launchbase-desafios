@@ -16,8 +16,8 @@
     "socket.io-parser": ">=4.2.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.28.1",
-    "nodemon": "^2.0.20",
+    "browser-sync": "^2.23.7",
+    "nodemon": "^3.0.1",
     "npm-run-all": "^4.1.5",
     "socket.io-parser": ">=4.2.3"
   },
